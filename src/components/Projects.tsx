@@ -28,13 +28,13 @@ export default function Projects() {
       },
     },
     {
-      title: '[Project Title 3]',
-      description: '[Brief description of your project and what it does]',
+      title: 'Jonas Entetainment',
+      description: 'A website where you can listen to music and play games. Built with HTML, CSS, and JavaScript to provide an engaging user experience with a retro aesthetic.',
       image: null,
-      tags: ['[Tech 1]', '[Tech 2]', '[Tech 3]'],
+      tags: ['HTML', 'CSS', 'JavaScript', 'React'],
       links: {
-        github: '#',
-        live: '#',
+        github: 'https://github.com/Secree/JonasEntertainment',
+        live: 'jonasentertainment.vercel.app',
       },
     },
   ]
@@ -120,13 +120,15 @@ export default function Projects() {
                     <Github size={18} />
                     <span className="text-xs uppercase">Code</span>
                   </a>
-                  <a
-                    href={project.links.live}
-                    className="flex-1 flex items-center justify-center gap-2 py-2 bg-retro-gold hover:bg-retro-orange text-retro-brown hover:text-retro-cream font-bold transition-colors border-2 border-retro-brown"
-                  >
-                    <ExternalLink size={18} />
-                    <span className="text-xs uppercase">Live</span>
-                  </a>
+                  {project.links.live && project.links.live !== '#' && (
+                    <a
+                      href={project.links.live}
+                      className="flex-1 flex items-center justify-center gap-2 py-2 bg-retro-gold hover:bg-retro-orange text-retro-brown hover:text-retro-cream font-bold transition-colors border-2 border-retro-brown"
+                    >
+                      <ExternalLink size={18} />
+                      <span className="text-xs uppercase">Live</span>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

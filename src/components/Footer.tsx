@@ -1,6 +1,6 @@
 'use client'
 
-import { Github, Linkedin, Twitter, Mail, Heart } from 'lucide-react'
+import { Github, Linkedin, Facebook, Mail, Heart } from 'lucide-react'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -60,7 +60,7 @@ export default function Footer() {
             </h4>
             <div className="grid grid-cols-2 gap-3">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Secree"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 p-3 bg-retro-orange hover:bg-retro-rust border-2 border-retro-cream transition-colors"
@@ -69,7 +69,7 @@ export default function Footer() {
                 <span className="text-xs font-bold">GIT</span>
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/jan-jonas-sta-ana-9b38a4240/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 p-3 bg-retro-teal hover:bg-retro-rust border-2 border-retro-cream transition-colors"
@@ -78,16 +78,16 @@ export default function Footer() {
                 <span className="text-xs font-bold">IN</span>
               </a>
               <a
-                href="https://twitter.com/yourusername"
+                href="https://www.facebook.com/janjonas.staana/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 p-3 bg-retro-teal hover:bg-retro-rust border-2 border-retro-cream transition-colors"
               >
-                <Twitter size={20} />
-                <span className="text-xs font-bold">X</span>
+                <Facebook size={20} />
+                <span className="text-xs font-bold">FB</span>
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:jonstaana7@gmail.com"
                 className="flex items-center justify-center gap-2 p-3 bg-retro-gold hover:bg-retro-rust border-2 border-retro-cream transition-colors text-retro-brown hover:text-retro-cream"
               >
                 <Mail size={20} />
@@ -101,7 +101,7 @@ export default function Footer() {
         <div className="border-t-4 border-retro-orange pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-retro-beige font-mono text-sm flex items-center gap-2">
-              © {currentYear} [Your Name] - Made with <Heart size={16} className="text-retro-orange" fill="currentColor" /> and retro vibes
+              © {currentYear} Secree - Made with <Heart size={16} className="text-retro-orange" fill="currentColor" /> and retro vibes
             </p>
             <p className="retro-text text-xs text-retro-orange">
               ◄ PORTFOLIO V1.0 ►
