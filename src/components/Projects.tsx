@@ -34,7 +34,7 @@ export default function Projects() {
       tags: ['HTML', 'CSS', 'JavaScript', 'React'],
       links: {
         github: 'https://github.com/Secree/JonasEntertainment',
-        live: 'jonasentertainment.vercel.app',
+        live: 'https://jonasentertainment.vercel.app',
       },
     },
   ]
