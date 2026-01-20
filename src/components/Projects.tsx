@@ -40,7 +40,7 @@ export default function Projects() {
   ]
 
   return (
-    <section id="projects" className="py-20 bg-gradient-to-br from-retro-cream to-retro-gold/30">
+    <section className="py-20 bg-gradient-to-br from-retro-cream to-retro-gold/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-block px-8 py-4 bg-retro-rust border-4 border-retro-brown shadow-retro mb-6">

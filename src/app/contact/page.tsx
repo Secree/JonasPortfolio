@@ -1,12 +1,14 @@
 import Navbar from '@/components/Navbar'
-import Hero from '@/components/Hero'
+import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 
-export default function Home() {
+export default function ContactPage() {
   return (
     <main className="min-h-screen">
       <Navbar />
-      <Hero />
+      <div className="pt-20">
+        <Contact />
+      </div>
       <Footer />
     </main>
   )

@@ -4,7 +4,7 @@ import { Mail, Github, Linkedin, Twitter, Send } from 'lucide-react'
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 bg-retro-beige border-t-8 border-retro-brown">
+    <section className="py-20 bg-retro-beige border-t-8 border-retro-brown">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-block px-8 py-4 bg-retro-gold border-4 border-retro-brown shadow-retro mb-6">
