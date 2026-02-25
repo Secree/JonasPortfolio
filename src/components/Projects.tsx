@@ -4,6 +4,7 @@ import { ExternalLink, Github, Star } from 'lucide-react'
 import Image from 'next/image'
 import mirangelica from '@/images/mirangelica.png'
 import emailSender from '@/images/emailSender.png'
+import jonasPizza from '@/images/jonas-pizza.png'
 
 export default function Projects() {
   const projects = [
@@ -35,6 +36,16 @@ export default function Projects() {
       links: {
         github: 'https://github.com/Secree/JonasEntertainment',
         live: 'https://jonasentertainment.vercel.app',
+      },
+    },
+    {
+      title: 'Jonas Pizza E-Commerce',
+      description: 'A modern e-commerce platform for ordering delicious pizzas. Built with a responsive design to provide seamless shopping experience across all devices.',
+      image: jonasPizza,
+      tags: ['React', 'TypeScript', 'E-Commerce'],
+      links: {
+        github: 'https://github.com/Secree/E-Commerce_PizzaSite',
+        live: 'https://jonas-pizza.vercel.app',
       },
     },
   ]

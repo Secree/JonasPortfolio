@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { ArrowRight, Star, Zap } from 'lucide-react'
 
 export default function Hero() {
@@ -49,19 +50,19 @@ export default function Hero() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center animate-slide-up">
-            <a
-              href="#projects"
+            <Link
+              href="/projects"
               className="group inline-flex items-center justify-center px-10 py-4 bg-retro-orange hover:bg-retro-rust text-retro-cream font-bold text-lg border-4 border-retro-brown shadow-retro hover:shadow-retro-hover transition-all duration-200 hover:-translate-y-1 uppercase tracking-wider"
             >
               <span className="retro-text text-sm">VIEW WORK</span>
               <ArrowRight className="ml-3 group-hover:translate-x-2 transition-transform" size={20} />
-            </a>
-            <a
-              href="#contact"
+            </Link>
+            <Link
+              href="/contact"
               className="inline-flex items-center justify-center px-10 py-4 bg-retro-cream hover:bg-retro-beige text-retro-brown font-bold text-lg border-4 border-retro-brown shadow-retro hover:shadow-retro-hover transition-all duration-200 hover:-translate-y-1 uppercase tracking-wider"
             >
               <span className="retro-text text-sm">CONTACT ME</span>
-            </a>
+            </Link>
           </div>
 
           {/* Retro divider */}
