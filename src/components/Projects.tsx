@@ -4,6 +4,7 @@ import { ExternalLink, Github, Star } from 'lucide-react'
 import Image from 'next/image'
 import mirangelica from '@/images/mirangelica.png'
 import emailSender from '@/images/emailSender.png'
+import jonasEntertainment from '@/images/jonasEntertainment.png'
 import jonasPizza from '@/images/jonas-pizza.png'
 
 export default function Projects() {
@@ -31,7 +32,7 @@ export default function Projects() {
     {
       title: 'Jonas Entetainment',
       description: 'A website where you can listen to music and play games. Built with HTML, CSS, and JavaScript to provide an engaging user experience with a retro aesthetic.',
-      image: null,
+      image: jonasEntertainment,
       tags: ['HTML', 'CSS', 'JavaScript', 'React'],
       links: {
         github: 'https://github.com/Secree/JonasEntertainment',
