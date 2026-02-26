@@ -2,6 +2,7 @@
 
 import { ExternalLink, Github, Star } from 'lucide-react'
 import Image from 'next/image'
+import discreteMathSolver from '@/images/Discrete-Math-Solver.png'
 import mirangelica from '@/images/mirangelica.png'
 import emailSender from '@/images/emailSender.png'
 import jonasEntertainment from '@/images/jonasEntertainment.png'
@@ -9,6 +10,16 @@ import jonasPizza from '@/images/jonas-pizza.png'
 
 export default function Projects() {
   const projects = [
+    {
+      title: 'Discrete Math Solver',
+      description: 'A comprehensive Python application that solves various discrete mathematics problems including Cramer\'s Rule, permutations, combinations, coin toss probability, and linear equations. Features an interactive GUI for easy problem-solving.',
+      image: discreteMathSolver,
+      tags: ['Python', 'HTML', 'Mathematics'],
+      links: {
+        github: 'https://github.com/Secree/Discrete-Math-Solver',
+        live: '#',
+      },
+    },
     {
       title: 'Mirangelica: Health Quest',
       description: 'Java desktop application that promotes healthy computer habits through timed wellness challenges. Set in the fictional Town of Fitonia, users meet characters Mira and Lucifer who guide them through four health challenges.',
