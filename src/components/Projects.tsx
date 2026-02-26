@@ -41,7 +41,7 @@ export default function Projects() {
       },
     },
     {
-      title: 'Jonas Entetainment',
+      title: 'Jonas Entertainment',
       description: 'A website where you can listen to music and play games. Built with HTML, CSS, and JavaScript to provide an engaging user experience with a retro aesthetic.',
       image: jonasEntertainment,
       tags: ['HTML', 'CSS', 'JavaScript', 'React'],
