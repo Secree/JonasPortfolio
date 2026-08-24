@@ -7,9 +7,20 @@ import mirangelica from '@/images/mirangelica.png'
 import emailSender from '@/images/emailSender.png'
 import jonasEntertainment from '@/images/jonasEntertainment.png'
 import jonasPizza from '@/images/jonas-pizza.png'
+import gameHubAnalytics from '@/images/gameHubAnalytics.png'
 
 export default function Projects() {
   const projects = [
+    {
+      title: 'GameHub Analytics',
+      description: 'A full-stack Steam game analytics platform with an ETL pipeline, PostgreSQL database, FastAPI REST API, and React dashboard for exploring game data, trends, player history, and visualizations.',
+      image: gameHubAnalytics,
+      tags: ['React', 'TypeScript', 'Python', 'PostgreSQL', 'FastAPI'],
+      links: {
+        github: 'https://github.com/Secree/GameHub-Analytics',
+        live: '#',
+      },
+    },
     {
       title: 'Discrete Math Solver',
       description: 'A comprehensive Python application that solves various discrete mathematics problems including Cramer\'s Rule, permutations, combinations, coin toss probability, and linear equations. Features an interactive GUI for easy problem-solving.',
